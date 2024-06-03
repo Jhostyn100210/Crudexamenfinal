@@ -169,5 +169,17 @@ namespace Crudexamenfinal
                 MessageBox.Show("Por favor, ingresa un ID válido.");
             }
         }
+
+        private void buttonlimpiar_Click(object sender, EventArgs e)
+        {
+            textBoxproduct.Clear();
+            textBoxprovee.Clear();
+            numericUpDowncantidad.Value = 0;
+            textBoxpreciouni.Clear();
+            textBoxcomentario.Clear();
+            textBoxdescrip.Clear();
+            dateTimePickeringreso.Value = DateTime.Now;
+            textBoxid.Clear();
+        }
     }
 }
